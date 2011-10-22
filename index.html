@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>SC - Contact Form</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<meta name="Keywords" content="XML,tutorial,HTML,DHTML,CSS,XSL,XHTML,JavaScript,ASP,ADO,VBScript,DOM,W3C,authoring,programming,learning,beginner's guide,primer,lessons,school,howto,reference,free,examples,samples,source code,demos,tips,links,FAQ,tag list,forms,frames,color tables,Cascading Style Sheets,Active Server Pages,Dynamic HTML,Internet database development,Webbuilder,Sitebuilder,Webmaster,HTMLGuide,SiteExpert" />
+		<meta name="Description" content="HTML XHTML CSS JavaScript XML XSL ASP SQL ADO VBScript Tutorials References Examples" />
+		<link rel="stylesheet" type="text/css" href="sc-contact-form.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+		<script type="text/javascript" src="sc-code.js"></script>
+		<script type="text/javascript">
+			$(function() {  });
+		</script>
+	</head>
+
+	<body>
+
+		<div id="contact">
+        
+            <h1>Simple Clear - Contact Form</h1>
+            <p>With just 2 files this can be easily integrated into any <b>HTML</b> or <b>PHP</b> page!</p>
+
+            
+            <div id="message"></div>
+        
+            <form method="post" action="sc-contact.php" name="contactform" id="sc-contactform">
+            
+            <fieldset>
+            
+				<legend>Please fill in the following form to contact us</legend>
+			
+				<label for=sc-name accesskey=U><span class="required">*</span> Your Name</label>
+				<input name="sc-name" type="text" id="sc-name" size="30" value="" /> 
+			
+				<br />
+
+				<label for=sc-email accesskey=E><span class="required">*</span> Email</label>
+				<input name="sc-email" type="text" id="sc-email" size="30" value="" />
+			
+				<br />
+
+				<label for=sc-subject accesskey=S>Subject</label>
+				<select name="sc-subject" type="text" id="sc-subject">
+				  <option value="Support">Support</option>
+				  <option value="a Sale">Sales</option>
+				  <option value="a Bug fix">Report a bug</option>
+				</select>
+			
+				<br />
+
+				<label for=sc-comments accesskey=C><span class="required">*</span> Your message</label>
+				<textarea name="sc-comments" cols="40" rows="3"  id="sc-comments" style="width: 350px;"></textarea>
+								
+				<p><span class="required">*</span> Are you human?</p>
+						
+				<label for=sc-verify accesskey=V>&nbsp;&nbsp;&nbsp;3 + 1 =</label>
+				<input name="sc-verify" type="text" id="sc-verify" size="4" value="" style="width: 30px;" /><br /><br />
+
+			
+				<input type="submit" class="submit" id="sc-submit" value="Send" />
+            
+            </fieldset>
+        
+        </form>
+    
+	</div>
+
+	</body>
+	
+</html>
