@@ -1,6 +1,6 @@
 <?php 
-// Now error
-// Can be a custom message set in here
+
+// Can be a custom message set in here// And a new conflict comment
 $error = "";
 
 if(!filter_var(trim($_REQUEST['sc-email']), FILTER_VALIDATE_EMAIL)) {
