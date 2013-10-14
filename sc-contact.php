@@ -1,4 +1,5 @@
-<?php 
+<?php 
+// Now error
 // Can be a custom message set in here
 $error = "";
 
