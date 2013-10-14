@@ -1,5 +1,5 @@
 <?php 
-// Can be a custom message
+// Can be a custom message set in here
 $error = "";
 
 if(!filter_var(trim($_REQUEST['sc-email']), FILTER_VALIDATE_EMAIL)) {
